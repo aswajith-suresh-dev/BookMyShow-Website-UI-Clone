@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- tailwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- fontawsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>BookMyShow Clone</title>
+  </head>
+  <body class="bg-mist-100">
+    <!-- navbar -->
+    <nav class="flex justify-between px-40 py-none bg-olive-50 w-full">
+      <div class="nav-first flex gap-2 items-center">
+        <div class="logo-container">
+          <img
+            src="./bookmyshow-logo-vector.svg"
+            height="120"
+            width="120"
+            alt=""
+          />
+        </div>
+        <input
+          type="search"
+          placeholder=" Search for Movies, Events, Plays, Sports and Activities"
+          class="w-[500px] text-gray-600 border border-gray-400 rounded-md h-10 outline-none focus:border-gray-600"
+        />
+      </div>
+      <div class="nav-second flex items-center gap-4">
+        <select name="" id="">
+          <option value=""><a href="" class="text-sm">Kochi</a></option>
+          <option value=""><a href="" class="text-sm">Mumbai</a></option>
+          <option value=""><a href="" class="text-sm">Chennai</a></option>
+        </select>
+        <button
+          class="rounded-sm bg-red-500 p-2 text-sm text-olive-100 cursor-pointer"
+        >
+          Sign in
+        </button>
+        <i class="fa-solid fa-bars text-xl cursor-pointer"></i>
+      </div>
+    </nav>
+    <!-- navbar link part -->
+    <div
+      class="nav-links flex px-40 py-4 justify-between bg-mist-100 border-b border-gray-300"
+    >
+      <ul class="flex gap-2">
+        <li><a href="">Movies</a></li>
+        <li><a href="">Stream</a></li>
+        <li><a href="">Events</a></li>
+        <li><a href="">Plays</a></li>
+        <li><a href="">Sports</a></li>
+        <li><a href="">Activities</a></li>
+      </ul>
+      <ul class="flex gap-2">
+        <li><a href="">ListYourShow</a></li>
+        <li><a href="">Corporates</a></li>
+        <li><a href="">Offers</a></li>
+        <li><a href="">Giftcards</a></li>
+      </ul>
+    </div>
+    <!-- banner -->
+    <div class="banner-container flex justify-center">
+      <div
+        class="banner rounded-lg w-[1250px] h-[300px] bg-mist-800 mt-[20px] bg-[url('https://assets-in-gm.bmscdn.com/promotions/cms/creatives/1788441233299_monsooncampaignkidsweb.jpg')] bg-cover"
+      ></div>
+    </div>
+    <section class="recommentation flex flex-col items-center">
+      <div class="recom-heading flex justify-between w-full p-4 px-34">
+        <h1 class="text-left text-xl font-bold">Recommended Movies</h1>
+        <a href="" class="text-red-400">See All</a>
+      </div>
+
+      <div class="card-container w-[1250px] grid grid-cols-5 gap-4">
+        <a href=""  class="card rounded-lg">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnot2UEg6r1LEFOipQRuyvge9cINmryXpniRhzZ83ygw&s=10 "
+            class="w-full h-[400px] object-cover rounded-lg"
+            alt=""
+          />
+          <h3 class="text-center text-md">Daayra</h3>
+          <p class="text-mist-600">Crime/Drama/Thriller</p>
+        </a>
+        <a href=""  class="card rounded-lg">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDzIxuUk1LMVlLrvBqXdbV_VNGp12r-KZJt3IQXG-IQXnM81L1S787NQLN&s=10"
+            alt=""
+            class="h-[400px] w-full object-cover rounded-lg"
+          />
+          <h3 class="text-center text-md">Daayra</h3>
+          <p class="text-mist-600">Drama/Mystery/Thriller</p>
+        </a>
+        <a href="" class="card rounded-lg">
+          <img
+            src="https://preview.redd.it/is-bku-overrated-v0-agsye23tvjmh1.jpeg?width=640&crop=smart&auto=webp&s=dc3cfd571a1b6bad5181463d013c9255fce20ca7"
+            alt=" "
+            class="h-[400px] w-full object-cover rounded-lg"
+          />
+          <h3 class="text-center text-md">Bethlehem Kudumba Unit</h3>
+          <p class="text-mist-600">Crime/Drama/Thriller</p>
+        </a>
+        <a href="" class="card rounded-lg">
+          <img
+            src="https://cdn.district.in/movies-assets/images/cinema/miraposter-d3b29cb0-b272-11f1-9786-e15532ce0823.jpg?im=Resize,width=400"
+            alt=""
+            class="h-[400px] w-full object-cover rounded-lg"
+          />
+          <h3 class="text-center text-md">Its a Medical Miracle</h3>
+          <p class="text-mist-600">Drama/Supernatural/Thriller</p>
+        </a>
+        <a href="" class="card rounded-lg">
+          <img
+            src="https://cdn.district.in/movies-assets/images/cinema/_Gallery-814cbb50-ac40-11f1-841e-e1d52b60d5da.jpg"
+            alt=""
+            class="h-[400px] w-full object-cover rounded-lg"
+          />
+          <h3 class="text-center text-md">Aasha</h3>
+          <p class="text-mist-600">Drama/Family/Mystery</p>
+        </a>
+      </div>
+    </section>
+    <!-- second banner -->
+    <div class="banner-container flex justify-center">
+      <div
+        class="banner rounded-lg w-[1250px] h-[100px] bg-mist-800 mt-[20px] bg-[url('https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120/stream-leadin-web-collection-202210241242.png')] bg-cover"
+      >
+        <img src="./" alt="" />
+      </div>
+    </div>
+    <section class="recommentation flex flex-col items-center">
+      <div class="recom-heading flex justify-between w-full p-4 px-34">
+        <h1 class="text-left text-xl font-bold">The Best of Live Events</h1>
+        <a href="" class="text-red-400">See All</a>
+      </div>
+
+      <div class="card-container w-[1250px] grid grid-cols-5 gap-4">
+        <a href=""  class="card rounded-lg h-[200px] w-[220px] bg-red-700">
+          <img
+            src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MTArIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/comedy-shows-collection-202211140440.png"
+            alt=""
+          />
+        </a>
+        <a href="" class="card rounded-lg h-[200px] w-[220px] bg-red-700">
+          <img
+            src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-OSBFdmVudHM%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/amusement-parks-banner-desktop-collection-202503251132.png"
+            alt=""
+          />
+        </a>
+        <a href="" class="card rounded-lg h-[200px] w-[220px] bg-red-700">
+          <img
+            src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MTArIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/music-shows-collection-202211140440.png"
+            alt=""
+          />
+        </a>
+        <a href="" class="card rounded-lg h-[200px] w-[220px] bg-red-700">
+          <img
+            src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-NDArIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/arts-crafts-collection-202211140440.png "
+            alt="   "
+          />
+        </a>
+        <a href="" class="card rounded-lg h-[200px] w-[220px] bg-red-700">
+          <img
+            src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-NTUrIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/workshop-and-more-web-collection-202211140440.png"
+            alt=""
+          />
+        </a>
+      </div>
+    </section>
+    <section
+      class="recommentation flex flex-col items-center bg-slate-900 m-2 my-8"
+    >
+      <div class="recom-heading flex justify-between w-full p-6 rounded px-34">
+        <h1 class="text-left text-xl font-bold text-olive-100">Premier</h1>
+        <a href="" class="text-red-400">See All</a>
+      </div>
+
+      <div class="card-container w-[1250px] grid grid-cols-5 gap-4">
+        <a href=""  class="card rounded-lg">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCQ3zaIBxClA7npLecMl0GdEP714w3KnYNM7ows8K4Kg&s=10 "
+            class="w-full h-[400px] object-cover rounded-lg"
+            alt=""
+          />
+          <h3 class="text-center text-md text-olive-100">Baby Doe</h3>
+        </a>
+        <a href="" class="card rounded-lg">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/en/9/9d/Hen_film_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"
+            alt=""
+            class="h-[400px] w-full object-cover rounded-lg"
+          />
+          <h3 class="text-center text-md text-olive-100">Hen</h3>
+        </a>
+        <a href="" class="card rounded-lg">
+          <img
+            src="https://resizing.flixster.com/1yQAUOY838QAQs-ebPkahcYAfKs=/fit-in/705x460/v2/https://resizing.flixster.com/q-5qsd4X6ShUiHqpPNnV3VBJluQ=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2YyOGZmN2QzLTVkODctNDNhNi1iZDk5LTY1NWZlYWNkM2ZjOS5wbmc="
+            alt=" "
+            class="h-[400px] w-full object-cover rounded-lg"
+          />
+          <h3 class="text-center text-md text-olive-100">Orphans</h3>
+        </a>
+        <a href="" class="card rounded-lg">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTer8SwPcKXO_lsGhL3wtG6GUQbNtRCNYEZ_3WUoGaWcg&s=10"
+            alt=""
+            class="h-[400px] w-full object-cover rounded-lg"
+          />
+          <h3 class="text-center text-md text-olive-100">Gotti</h3>
+        </a>
+        <a href="" class="card rounded-lg">
+          <img
+            src="https://cdn.kinocheck.com/i/hfpsa87z6a.jpg"
+            alt=""
+            class="h-[400px] w-full object-cover rounded-lg"
+          />
+          <h3 class="text-center text-md text-olive-100">The Bodyguard</h3>
+        </a>
+      </div>
+    </section>
+    <section class="recommentation flex flex-col items-center">
+      <div class="recom-heading flex justify-between w-full p-4 px-34">
+        <h1 class="text-left text-xl font-bold">Popular Shows</h1>
+        <a href="" class="text-red-400">See All</a>
+      </div>
+
+      <div class="card-container w-[1250px] grid grid-cols-5 gap-4">
+        <a href="" class="card rounded-lg">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtef6VIyH1OPu7ZQpa1J1UQeIHt7NeSXO_FbL_4wgypARogHGCz1aS_hZw&s=10"
+            alt=" "
+            class="h-[400px] w-full object-cover rounded-lg"
+          />
+          <h3 class="text-center text-xl font-semibold">Concert in Kochi</h3>
+        </a>
+
+        <a href=""  class="card rounded-lg">
+          <img
+            src="https://images.stockcake.com/public/3/f/8/3f8716f2-9a8b-420e-9a83-b19adaf53b7e_large/live-concert-performance-stockcake.jpg"
+            alt=""
+            class="h-[400px] w-full object-cover rounded-lg"
+          />
+          <h3 class="text-center text-xl font-semibold">Concert in Mumbai</h3>
+        </a>
+        <a href=""  class="card rounded-lg">
+          <img
+            src="https://images.ctfassets.net/w0xmjfdre13u/1b5P1DG4pHuVf3LPlpUI6q/94949cd142e8d2b88205e47ae39f4138/jordon-conner-tIr-PWgSYB4-unsplash.jpg"
+            alt=""
+            class="h-[400px] w-full object-cover rounded-lg"
+          />
+          <h3 class="text-center text-xl font-semibold">Concert in Chennai</h3>
+        </a>
+      </div>
+    </section>
+    <section class="recommentation flex flex-col items-center">
+      <div class="recom-heading flex justify-between w-full p-4 px-34">
+        <h1 class="text-left text-xl font-bold">Games and Sports Events</h1>
+        <a href="" class="text-red-400">See All</a>
+      </div>
+
+      <div class="card-container w-[1250px] grid grid-cols-5 gap-4">
+        <a href=""  class="card rounded-lg">
+          <img
+            src="https://i.pinimg.com/236x/69/81/fd/6981fd8955842de9920c02d856f3395e.jpg"
+            alt=" "
+            class="h-[400px] w-full object-cover rounded-lg"
+          />
+          <h3 class="text-center text-lg font-semibold">India vs WestIndies</h3>
+        </a>
+
+        <a href="" class="card rounded-lg">
+          <img
+            src="https://i.pinimg.com/236x/69/81/fd/6981fd8955842de9920c02d856f3395e.jpg"
+            alt=""
+            class="h-[400px] w-full object-cover rounded-lg"
+          />
+          <h3 class="text-center text-lg font-semibold">India vs Australia</h3>
+        </a>
+        <a href="" class="card rounded-lg">
+          <img
+            src="https://i.pinimg.com/236x/69/81/fd/6981fd8955842de9920c02d856f3395e.jpg"
+            alt=""
+            class="h-[400px] w-full object-cover rounded-lg"
+          />
+          <h3 class="text-center text-lg font-semibold">India vs Newsealand</h3>
+        </a>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="my-4">
+      <div
+        class="footer-part1 flex bg-neutral-800 justify-center items-center gap-10 h-[100px] text-xl text-olive-100 font-bold"
+      >
+        <h1 class="">List Your Show</h1>
+        <p>
+          Got a show, event, activity or a great experience? Partner with us &
+          get listed on BookMyShow
+        </p>
+        <button class="p-2 bg-red-500 rounded text-sm cursor-pointer">Contact today!</button>
+      </div>
+      <div
+        class="footer-part2 h-[100px] flex items-center justify-center gap-10 w-full bg-neutral-700" 
+      >
+        <div class="icon-section flex flex-col items-center">
+          <i class="fa-solid fa-headphones text-4xl text-neutral-400"></i>
+          <a href="">          <p class="text-neutral-400">Customer Care</p>
+</a>
+        </div>
+        <div class="icon-section flex flex-col items-center">
+          <i class="fa-solid fa-film text-4xl text-neutral-400"></i>
+          <a href="">          <p class="text-neutral-400">Resend Booking Confirmation</p>
+</a>
+        </div>
+        <div class="icon-section flex flex-col items-center">
+          <i class="fa-regular fa-envelope text-4xl text-neutral-400"></i>
+          <a href="">          <p class="text-neutral-400">Subscribe to Newsletter</p>
+</a>
+        </div>
+      </div>
+      <div
+        class="footer-part3 flex flex-col text-lg gap-6 items-start pl-40 py-6  w-full bg-neutral-800 text-neutral-500"
+      >
+        <div class="info">
+          <h3>Movies Per Week</h3>
+          <a href="">Movies Playing Today |</a
+          ><a href="">Movies Playing Tomorrow |</a
+          ><a href="">Movies Playing this Week</a>
+        </div>
+        <div class="info ">
+          <h3>Upcoming Movies Per Week</h3>
+          <a href="">Upcoming Movies Today |</a
+          ><a href="">Upcoming Movies Tomorrow |</a
+          ><a href="">Upcoming Movies This Weekend</a>
+        </div>
+        <div class="info">
+          <h3>Movies Now Showing in Kochi</h3>
+          <a href="">Pradhama Drishtiya Kuttakkar |</a
+          ><a href="">Bethlehem Kudumba Unit|</a><a href="">Aasha</a
+          ><a href="">Avengers:Endgame encore</a>
+        </div>
+        <div class="info">
+          <h3>Movies By Genre</h3>
+          <a href="">Drama Movies |</a><a href="">Comedy Movies |</a
+          ><a href="">Thriller Movies |</a><a href="">Mystery Movies |</a
+          ><a href="">Horror Movies</a>
+        </div>
+      </div>
+      <div class="social-medial-links flex justify-center bg-neutral-800">
+        <a href="">        <i class="fa-brands fa-square-x-twitter text-3xl text-neutral-100"></i>
+</a>
+        <a href="">        <i class="fa-brands fa-facebook text-3xl text-neutral-100"></i>
+</a>
+        <a href="">        <i class="fa-brands fa-instagram text-3xl text-neutral-100"></i>
+</a>
+        <a href="">        <i class="fa-brands fa-youtube text-3xl text-neutral-100"></i>
+</a>
+        <a href="">        <i class="fa-brands fa-pinterest text-3xl text-neutral-100"></i>
+</a>
+        <a href="">        <i class="fa-brands fa-linkedin text-3xl text-neutral-100"></i>
+</a>
+      </div>
+      <div
+        class="flex justify-center items-center bg-neutral-800 text-neutral-500 p-4"
+      >
+        copyright 2026 clone of bookmyshow website
+      </div>
+    </footer>
+  </body>
+</html>
